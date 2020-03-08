@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659688878360",
+    "firebase_url": "https://classroom-c5c9c.firebaseio.com",
+    "project_id": "classroom-c5c9c",
+    "storage_bucket": "classroom-c5c9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659688878360:android:40ccd9ae5d4aba1e9cee6d",
+        "android_client_info": {
+          "package_name": "com.amel.classroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659688878360-0bl0j9k9f8m6uuica2oti55u4hr1d2oi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amel.classroom",
+            "certificate_hash": "bffbdb6066ecae1b1a152c0b28cde59abae78b76"
+          }
+        },
+        {
+          "client_id": "659688878360-mkgldbom45v60leo2h3rd9jn6n535rj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjjCzx6SrcSv-vVOANlwaSW9vVQzuWf0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659688878360-mkgldbom45v60leo2h3rd9jn6n535rj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
