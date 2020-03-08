@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".login">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="300px"
+        android:layout_height="300px"
+
+        android:src="@drawable/user"/>
+
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_marginTop="100px"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:hint="nim/ID"/>
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:hint="password"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:layout_marginTop="30px"
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="LOGIN"/>
+
+<!--percobaan nanti dihapus-->
+    <TextView
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="uji coba buat portal admin tokkk"/>
+    <Button
+        android:background="@drawable/button1"
+        android:layout_marginTop="30px"
+        android:id="@+id/button_loginadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="LOGINadmin"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="400px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun ? "/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"/>
+
+    </LinearLayout>
+
+</LinearLayout>

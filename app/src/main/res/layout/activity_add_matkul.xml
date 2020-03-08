@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".add_matkul">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Mata Kuliah"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:src="@drawable/matkul_ic"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/Input_matkul_add"
+        android:layout_width="750px"
+        android:layout_height="wrap_content"
+        android:hint="Isi nama Mata Kuliah"/>
+
+    <Button
+        android:id="@+id/bt_tambah_matkul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:background="@drawable/button1"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+</LinearLayout>

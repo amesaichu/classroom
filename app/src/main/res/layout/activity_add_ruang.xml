@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".add_ruang">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Ruang"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:src="@drawable/room"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            />
+        <EditText
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/Input_namaruang_add"
+            android:layout_width="750px"
+            android:layout_height="wrap_content"
+            android:hint="Isi nama Ruang"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/Input_lantairuang_add"
+            android:layout_width="750px"
+            android:layout_height="wrap_content"
+            android:hint="Isi lantai Ruang"/>
+
+        <Button
+            android:id="@+id/bt_tambah_ruang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah"
+            android:background="@drawable/button1"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+</LinearLayout>

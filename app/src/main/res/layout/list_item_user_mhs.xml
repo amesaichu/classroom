@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="60px"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="NIM : " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1782194384317401"
+            android:textSize="20dp"
+            android:id="@+id/text_nim"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Nama : " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ber Hasil Yay"
+                android:textSize="20dp"
+                android:id="@+id/text_nama"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:id="@+id/text_matkul"-->
+<!--        android:layout_width="720px"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20dp"-->
+<!--        android:text="19.00 - 20.30"/>-->
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginLeft="50px"
+            android:src="@drawable/ic_delete" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

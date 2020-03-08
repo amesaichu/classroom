@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".add_user_mhs">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:layout_marginBottom="200px"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data User"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_height="match_parent">-->
+
+        <ImageView
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:src="@drawable/user"
+            android:layout_gravity="center"
+            />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_pilih_foto_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose file"/>
+
+        <TextView
+            android:id="@+id/text_statusfoto_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/Input_nim_add"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi NIM"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+
+                android:text="Nama"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:id="@+id/Input_nama_add"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi Nama"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/Input_email_add"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:hint="Isi E-mail"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="Pass"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/Input_pass_add"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:hint="Isi password"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="Telp"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/Input_telp_add"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:hint="Isi telp"/>
+
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_status_add"
+        android:entries="@array/list_status"
+
+        />
+
+
+
+
+        <Button
+            android:id="@+id/bt_tambah_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah"
+            android:background="@drawable/button1"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+
+<!--</LinearLayout>-->

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jadwal_ruang">
+
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b_senin"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/button1"
+                android:text="SENIN"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/b_selasa"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button1"
+                android:text="SELASA"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b_rabu"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/button1"
+                android:text="RABU"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/b_kamis"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button1"
+                android:text="KAMIS"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/b_jumat"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:text="JUMAT"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/people"/>
+
+
+
+</LinearLayout>

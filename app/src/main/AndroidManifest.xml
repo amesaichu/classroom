@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amel.classroom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/matkul_ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".t_jumat"></activity>
+        <activity android:name=".t_kamis" />
+        <activity android:name=".t_rabu" />
+        <activity android:name=".t_selasa" />
+        <activity android:name=".t_senin" />
+        <activity android:name=".jadwal_ruang" />
+        <activity android:name=".history" />
+        <activity android:name=".profile_user" />
+        <activity android:name=".dashboard_user" />
+        <activity android:name=".dashboard_admin" />
+        <activity android:name=".edit_user_mhs" />
+        <activity android:name=".add_user_mhs" />
+        <activity android:name=".edit_ruang" />
+        <activity android:name=".add_ruang" />
+        <activity android:name=".edit_matkul" />
+        <activity android:name=".add_matkul" />
+        <activity android:name=".registrasi" />
+        <activity android:name=".user_mhs_list" />
+        <activity android:name=".ruang_list" />
+        <activity android:name=".jam_list" />
+        <activity android:name=".matkul_list" />
+        <activity android:name=".profil" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
