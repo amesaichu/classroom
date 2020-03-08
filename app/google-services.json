@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "659688878360-59jelo8lq77t69oddbskqm1probtoe8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amel.classroom",
+            "certificate_hash": "c1d10fbad1b3331ef951e8b532348231f2941e3f"
+          }
+        },
+        {
           "client_id": "659688878360-0bl0j9k9f8m6uuica2oti55u4hr1d2oi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
