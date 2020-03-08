@@ -1,6 +1,5 @@
 package com.amel.classroom
 
-import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -20,6 +19,8 @@ class login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         setTitle("Login MyClassroom")
+
+//        login auth firebase
 
         b_login = findViewById(R.id.button_login)
         b_login.setOnClickListener{
