@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".form_user"
+    android:layout_margin="25dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formulir Peminjaman Kelas"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/iid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor"/>
+    <EditText
+        android:id="@+id/ETid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="ID/NIM"/>
+    <TextView
+        android:id="@+id/inama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"/>
+    <EditText
+        android:id="@+id/ETnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="nama"/>
+    <TextView
+        android:id="@+id/ikelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas"/>
+    <EditText
+        android:id="@+id/ETkelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="kelas"/>
+    <TextView
+        android:id="@+id/idate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pinjam"/>
+    <EditText
+        android:id="@+id/ETdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="pilih tanggal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruangan"/>
+    <Spinner
+        android:id="@+id/sp_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/aruang"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waktu Pinjam"/>
+    <Spinner
+        android:id="@+id/sp_jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ajam"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jam Selesai"/>
+    <Spinner
+        android:id="@+id/sp_jam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ajam2"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah"/>
+    <Spinner
+        android:id="@+id/sp_matkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/amatkul"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alasan"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alasan"
+        android:hint="Tulis alasan pilih Lain-Lain"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btnBatalPinjam"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BATAL"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Kirim Permintaan"/>
+    </LinearLayout>
+</LinearLayout>

@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".t_jumat"></activity>
+        <activity android:name=".form_peminjaman"></activity>
+        <activity android:name=".history_tolak" />
+        <activity android:name=".history_setuju" />
+        <activity android:name=".form_user" />
+        <activity android:name=".t_jumat" />
         <activity android:name=".t_kamis" />
         <activity android:name=".t_rabu" />
         <activity android:name=".t_selasa" />

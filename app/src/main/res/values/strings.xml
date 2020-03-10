@@ -1,5 +1,33 @@
 <resources>
     <string name="app_name">My Classroom</string>
+    <string-array name="aruang">
+        <item>R. 201</item>
+        <item>R. 202</item>
+        <item>R. 203</item>
+        <item>R. 204</item>
+    </string-array>
+
+    <string-array name="ajam">
+        <item>08.00</item>
+        <item>08.20</item>
+        <item>08.40</item>
+        <item>09.20</item>
+    </string-array>
+
+    <string-array name="ajam2">
+        <item>10.00</item>
+        <item>10.20</item>
+        <item>10.40</item>
+        <item>10.20</item>
+    </string-array>
+
+    <string-array name="amatkul">
+        <item>Budi Pekerti</item>
+        <item>Matematika Dasar</item>
+        <item>Logaritma Pemograman</item>
+        <item>Lain-Lain</item>
+    </string-array>
+
     <string-array name="list_status">
         <item>User</item>
         <item>Admin</item>
