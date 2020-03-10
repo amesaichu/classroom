@@ -25,10 +25,10 @@ class dashboard_user : AppCompatActivity() {
 
 
         b_form = findViewById(R.id.b_form)
-//        b_form.setOnClickListener{
-//            startActivity(Intent(this, ::class.java))
-//        }
-//
+        b_form.setOnClickListener{
+            startActivity(Intent(this, form_user::class.java))
+        }
+
 
         b_jadwal = findViewById(R.id.b_jadwalruang)
         b_jadwal.setOnClickListener{

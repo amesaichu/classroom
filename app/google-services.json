@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "395946129784",
-    "firebase_url": "https://classroom-64cc1.firebaseio.com",
-    "project_id": "classroom-64cc1",
-    "storage_bucket": "classroom-64cc1.appspot.com"
+    "project_number": "945515442863",
+    "firebase_url": "https://classroom-5671d.firebaseio.com",
+    "project_id": "classroom-5671d",
+    "storage_bucket": "classroom-5671d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:395946129784:android:229532f5f6c0d5ff2b708d",
+        "mobilesdk_app_id": "1:945515442863:android:e37934b4467aec7b1e5a5a",
         "android_client_info": {
           "package_name": "com.amel.classroom"
         }
       },
       "oauth_client": [
         {
-          "client_id": "395946129784-r795bndmgcmat04fd33lu46c8s9vg30l.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.amel.classroom",
-            "certificate_hash": "980f422f7c847fc2e71612df20d4d2f7bb6fbdea"
-          }
-        },
-        {
-          "client_id": "395946129784-r4ctb5ic3312r3r4sfaej81js4bdf68e.apps.googleusercontent.com",
+          "client_id": "945515442863-1ts252mvl2eq2nm9e6sisr9feo89r774.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCtghFQDgjRhnl0CDiueV7sDhzKfuvMfSw"
+          "current_key": "AIzaSyDA8ZC4oluuiKROIKGuDJMXt9bDfgtvNts"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "395946129784-r4ctb5ic3312r3r4sfaej81js4bdf68e.apps.googleusercontent.com",
+              "client_id": "945515442863-1ts252mvl2eq2nm9e6sisr9feo89r774.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
