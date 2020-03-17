@@ -6,6 +6,22 @@
         <item>R. 202</item>
         <item>R. 203</item>
         <item>R. 204</item>
+        <item>R. 205</item>
+        <item>R. 206</item>
+        <item>R. 207</item>
+        <item>R. 208</item>
+        <item>R. 209</item>
+        <item>R. 210</item>
+        <item>R. 301</item>
+        <item>R. 302</item>
+        <item>R. 303</item>
+        <item>R. 304</item>
+        <item>R. 305</item>
+        <item>R. 306</item>
+        <item>R. 307</item>
+        <item>R. 308</item>
+        <item>R. 309</item>
+        <item>R. 310</item>
     </string-array>
 
     <string name="auser_item"></string>
@@ -16,18 +32,45 @@
 
     <string name="ajam_item"></string>
     <string-array name="ajam">
-        <item>08.00</item>
-        <item>08.20</item>
+        <item>07.00</item>
+        <item>07.50</item>
         <item>08.40</item>
-        <item>09.20</item>
+        <item>09.30</item>
+        <item>10.20</item>
+        <item>11.10</item>
+        <item>12.00</item>
+        <item>12.50</item>
+        <item>13.40</item>
+        <item>14.30</item>
+        <item>15.20</item>
+        <item>16.10</item>
+        <item>17.00</item>
+        <item>17.50</item>
+        <item>18.40</item>
+        <item>19.30</item>
+        <item>20.20</item>
+        <item>21.10</item>
     </string-array>
 
     <string name="ajam2_item"></string>
     <string-array name="ajam2">
-        <item>10.00</item>
+        <item>07.50</item>
+        <item>08.40</item>
+        <item>09.30</item>
         <item>10.20</item>
-        <item>10.40</item>
-        <item>10.20</item>
+        <item>11.10</item>
+        <item>12.00</item>
+        <item>12.50</item>
+        <item>13.40</item>
+        <item>14.30</item>
+        <item>15.20</item>
+        <item>16.10</item>
+        <item>17.00</item>
+        <item>17.50</item>
+        <item>18.40</item>
+        <item>19.30</item>
+        <item>20.20</item>
+        <item>21.10</item>
     </string-array>
 
     <string name="amatkul_item"></string>
