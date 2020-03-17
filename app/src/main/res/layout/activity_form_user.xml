@@ -50,16 +50,15 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:hint="kelas"/>
-    <TextView
-        android:id="@+id/idate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tanggal Pinjam"/>
+<!--    <TextView-->
+<!--        android:id="@+id/idate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tanggal Pinjam"/>-->
     <EditText
         android:id="@+id/ETdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
         android:hint="pilih tanggal"/>
     <TextView
         android:layout_width="match_parent"
