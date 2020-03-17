@@ -9,14 +9,21 @@ import android.widget.*
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_form_user.*
+import java.util.*
 
 class form_user : AppCompatActivity() {
 
     lateinit var ref : DatabaseReference
+    lateinit var datePicker: DatePickerHelper
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form_user)
+        datePicker = DatePickerHelper(this)
+        ETdate.setOnClickListener {
+            showDatePickerDialog()
+        }
+
         val arrayruang = resources.getStringArray(R.array.aruang)
         val spinnerruang = findViewById<Spinner>(R.id.sp_ruang)
         if (spinnerruang != null) {
@@ -126,6 +133,28 @@ class form_user : AppCompatActivity() {
             val intent = Intent (this, dashboard_user::class.java)
             startActivity(intent)
         }
+    }
+    private fun showDatePickerDialog() {
+        val cal = Calendar.getInstance()
+        val d = cal.get(Calendar.DAY_OF_MONTH)
+        val m = cal.get(Calendar.MONTH)
+        val y = cal.get(Calendar.YEAR)
+        val minDate = Calendar.getInstance()
+        minDate.set(Calendar.HOUR_OF_DAY, 0)
+        minDate.set(Calendar.MINUTE, 0)
+        minDate.set(Calendar.SECOND, 0)
+        datePicker.setMinDate(minDate.timeInMillis)
+        val maxDate = Calendar.getInstance()
+        maxDate.add(Calendar.DAY_OF_MONTH, 7)
+        datePicker.setMaxDate(maxDate.timeInMillis)
+        datePicker.showDialog(d, m, y, object : DatePickerHelper.Callback {
+            override fun onDateSelected(dayofMonth: Int, month: Int, year: Int) {
+                val dayStr = if (dayofMonth < 10) "0${dayofMonth}" else "${dayofMonth}"
+                val mon = month + 1
+                val monthStr = if (mon < 10) "0${mon}" else "${mon}"
+                idate.text = "${dayStr}-${monthStr}-${year}"
+            }
+        })
     }
 
     private fun savedata() {
