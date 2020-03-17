@@ -1,203 +1,207 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".edit_user_mhs">
 
-
-    <TextView
-        android:textStyle="bold"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="20dp"
-        android:layout_marginBottom="200px"
-        android:layout_marginTop="30dp"
-        android:textAlignment="center"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Edit Data User"/>
-
-    <!--    <LinearLayout-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:orientation="vertical"-->
-    <!--        android:gravity="center"-->
-    <!--        android:layout_height="match_parent">-->
-
-    <ImageView
-        android:id="@+id/fotouser_edit"
-        android:layout_width="300px"
-        android:layout_height="300px"
-        android:src="@drawable/user"
-        android:layout_gravity="center"
-        />
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20px"
-        android:layout_gravity="center"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/button_pilih_foto_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Choose file"/>
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text_statusfoto_edit"
-            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:layout_marginBottom="200px"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="status"/>
+            android:text="Edit Data User"/>
 
-    </LinearLayout>
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:orientation="vertical"-->
+        <!--        android:gravity="center"-->
+        <!--        android:layout_height="match_parent">-->
 
-
-    <LinearLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
-            android:layout_height="wrap_content"
-            android:text="NIM"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
-
-        <EditText
-            android:textAlignment="center"
-            android:id="@+id/text_nim_edit"
-            android:layout_width="600px"
-            android:layout_height="wrap_content"
-            android:hint="Isi NIM"/>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
-            android:layout_height="wrap_content"
-
-            android:text="Nama"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
-
-        <EditText
+        <ImageView
+            android:id="@+id/fotouser_edit"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:src="@drawable/user"
             android:layout_gravity="center"
-            android:textAlignment="center"
-            android:id="@+id/text_nama_edit"
-            android:layout_width="600px"
-            android:layout_height="wrap_content"
-            android:hint="Isi Nama"/>
+            />
 
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_pilih_foto_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose file"/>
+
+            <TextView
+                android:id="@+id/text_statusfoto_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="status"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/text_nim_edit"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi NIM"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+
+                android:text="Nama"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:id="@+id/text_nama_edit"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi Nama"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="E-mail"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/text_email_edit"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi E-mail"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/text_pass_edit"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi password"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="Telp"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/text_telp_edit"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi telp"/>
+
+
+        </LinearLayout>
+
+        <Spinner
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_status_edit"
+            android:entries="@array/auser"
+
+            />
+
+
+
+
+        <Button
+            android:id="@+id/bt_edit_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:background="@drawable/button1"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
-            android:layout_height="wrap_content"
-            android:text="E-mail"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
-
-        <EditText
-            android:textAlignment="center"
-            android:id="@+id/text_email_edit"
-            android:layout_width="600px"
-            android:layout_height="wrap_content"
-            android:hint="Isi E-mail"/>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
-            android:layout_height="wrap_content"
-            android:text="Pass"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
-
-        <EditText
-            android:textAlignment="center"
-            android:id="@+id/text_pass_edit"
-            android:layout_width="600px"
-            android:layout_height="wrap_content"
-            android:hint="Isi password"/>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
-            android:layout_height="wrap_content"
-            android:text="Telp"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
-
-        <EditText
-            android:textAlignment="center"
-            android:id="@+id/text_telp_edit"
-            android:layout_width="600px"
-            android:layout_height="wrap_content"
-            android:hint="Isi telp"/>
-
-
-    </LinearLayout>
-
-    <Spinner
-        android:layout_gravity="center"
-        android:layout_marginTop="30px"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner_status_edit"
-        android:entries="@array/list_status"
-
-        />
-
-
-
-
-    <Button
-        android:id="@+id/bt_edit_user"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Edit"
-        android:background="@drawable/button1"
-        android:layout_marginTop="40dp"
-        android:layout_gravity="center"
-        android:textColor="@android:color/white"/>
-
-
-</LinearLayout>
+</ScrollView>
 
 
     <!--</LinearLayout>-->

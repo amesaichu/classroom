@@ -38,7 +38,7 @@ class dashboard_admin : AppCompatActivity() {
 
         buser=findViewById(R.id.b_user)
         buser.setOnClickListener{
-            startActivity(Intent(this, user_mhs_list::class.java))
+            startActivity(Intent(this, add_user_mhs::class.java))
         }
     }
 }

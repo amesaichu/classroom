@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".add_user_mhs">
 
-
-    <TextView
-        android:textStyle="bold"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="20dp"
-        android:layout_marginBottom="200px"
-        android:layout_marginTop="30dp"
-        android:textAlignment="center"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tambah Data User"/>
+        android:orientation="vertical">
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:orientation="vertical"-->
-<!--        android:gravity="center"-->
-<!--        android:layout_height="match_parent">-->
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:layout_marginBottom="200px"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Data User"/>
+
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:orientation="vertical"-->
+        <!--        android:gravity="center"-->
+        <!--        android:layout_height="match_parent">-->
 
         <ImageView
             android:layout_width="300px"
@@ -33,25 +36,25 @@
             />
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20px"
-        android:layout_gravity="center"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/button_pilih_foto_add"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choose file"/>
+            android:layout_marginTop="20px"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_pilih_foto_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose file"/>
 
-        <TextView
-            android:id="@+id/text_statusfoto_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="status"/>
+            <TextView
+                android:id="@+id/text_statusfoto_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="status"/>
 
-    </LinearLayout>
+        </LinearLayout>
 
 
         <LinearLayout
@@ -69,7 +72,7 @@
                 android:textColor="@android:color/black"/>
 
             <EditText
-                android:textAlignment="center"
+                android:gravity="center"
                 android:id="@+id/Input_nim_add"
                 android:layout_width="600px"
                 android:layout_height="wrap_content"
@@ -103,84 +106,84 @@
 
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="E-mail"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <EditText
-            android:textAlignment="center"
-            android:id="@+id/Input_email_add"
-            android:layout_width="600px"
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="E-mail"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/Input_email_add"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi E-mail"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Isi E-mail"/>
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/Input_pass_add"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi password"/>
 
 
-    </LinearLayout>
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pass"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <EditText
-            android:textAlignment="center"
-            android:id="@+id/Input_pass_add"
-            android:layout_width="600px"
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:text="Telp"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/Input_telp_add"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:hint="Isi telp"/>
+
+
+        </LinearLayout>
+
+        <Spinner
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Isi password"/>
+            android:id="@+id/spinner_status_add"
+            android:entries="@array/auser"
 
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="200px"
-            android:layout_height="wrap_content"
-            android:text="Telp"
-            android:textSize="22dp"
-            android:textColor="@android:color/black"/>
-
-        <EditText
-            android:textAlignment="center"
-            android:id="@+id/Input_telp_add"
-            android:layout_width="600px"
-            android:layout_height="wrap_content"
-            android:hint="Isi telp"/>
-
-
-    </LinearLayout>
-
-    <Spinner
-        android:layout_gravity="center"
-        android:layout_marginTop="30px"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner_status_add"
-        android:entries="@array/list_status"
-
-        />
+            />
 
 
 
@@ -195,8 +198,9 @@
             android:layout_gravity="center"
             android:textColor="@android:color/white"/>
 
-
     </LinearLayout>
+
+</ScrollView>
 
 
 <!--</LinearLayout>-->
