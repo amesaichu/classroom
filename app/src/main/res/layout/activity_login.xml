@@ -20,13 +20,13 @@
         android:layout_marginTop="100px"
         android:layout_width="600px"
         android:layout_height="wrap_content"
-        android:hint="nim/ID"/>
+        android:hint="NIM/ID"/>
 
     <EditText
         android:id="@+id/input_password"
         android:layout_width="600px"
         android:layout_height="wrap_content"
-        android:hint="password"/>
+        android:hint="Password"/>
 
     <Button
         android:background="@drawable/button1"
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        android:text="LOGINadmin"/>
+        android:text="LOGINADMIN"/>
 
     <LinearLayout
         android:layout_width="wrap_content"

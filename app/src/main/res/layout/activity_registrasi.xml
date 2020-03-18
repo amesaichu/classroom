@@ -27,7 +27,7 @@
             android:textColor="@android:color/holo_red_dark"
             android:textStyle="italic"
             android:layout_marginBottom="90dp"
-            android:text="*masukkan data sesuai kartu anda!"/>
+            android:text="*Masukkan Data Sesuai Kartu Anda!"/>
 
 
         <LinearLayout
@@ -44,7 +44,7 @@
                 android:id="@+id/text_statusfoto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="status"/>
+                android:text="Status"/>
 
         </LinearLayout>
 
@@ -55,7 +55,7 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
-            android:hint="masukkan nim/id"/>
+            android:hint="Masukkan NIM/ID"/>
 
         <EditText
             android:id="@+id/input_nama"
@@ -63,7 +63,7 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
-            android:hint="masukkan nama"/>
+            android:hint="Masukkan Nama"/>
 
 
         <EditText
@@ -72,7 +72,7 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
-            android:hint="masukkan email"/>
+            android:hint="Masukkan Email"/>
 
         <EditText
             android:id="@+id/input_telp"
@@ -80,7 +80,7 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
-            android:hint="masukkan Telp"/>
+            android:hint="Masukkan Nomor Telp"/>
 
         <EditText
             android:id="@+id/input_pass"
@@ -89,7 +89,7 @@
             android:inputType="textPassword"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
-            android:hint="masukkan password"/>
+            android:hint="Masukkan Password"/>
 
 
         <Spinner

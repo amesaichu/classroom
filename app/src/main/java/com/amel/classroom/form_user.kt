@@ -152,7 +152,7 @@ class form_user : AppCompatActivity() {
                 val dayStr = if (dayofMonth < 10) "0${dayofMonth}" else "${dayofMonth}"
                 val mon = month + 1
                 val monthStr = if (mon < 10) "0${mon}" else "${mon}"
-                idate.text = "${dayStr}-${monthStr}-${year}"
+                ETdate.text = "${dayStr}-${monthStr}-${year}"
             }
         })
     }

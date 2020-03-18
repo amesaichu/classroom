@@ -90,7 +90,7 @@ class add_user_mhs : AppCompatActivity() {
         val spinnerUser = spinner_status_add.getSelectedItem().toString()
         val password1 = etPassword!!.text.toString().trim()
         if (password1.length < 6){
-            Toast.makeText(applicationContext,"Password too short, enter mimimum 6 charcters" , Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext,"Password too short, enter minimum 6 characters" , Toast.LENGTH_LONG).show()
         }else{
             if (!TextUtils.isEmpty(nim) && !TextUtils.isEmpty(nama) && !TextUtils.isEmpty(email) && !TextUtils.isEmpty(password) && !TextUtils.isEmpty(telepon)) {
                 mProgressBar!!.setMessage("Registering User...")
