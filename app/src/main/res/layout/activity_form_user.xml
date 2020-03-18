@@ -55,11 +55,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tanggal Pinjam"/>
-    <Button
+    <EditText
         android:id="@+id/ETdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Pilih tanggal"/>
+        android:text=""
+        android:hint="pilih tanggal"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

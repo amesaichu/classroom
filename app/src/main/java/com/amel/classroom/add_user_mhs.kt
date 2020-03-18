@@ -68,11 +68,11 @@ class add_user_mhs : AppCompatActivity() {
     }
 
     private fun initialise() {
-        etNim = findViewById(R.id.Input_nim_add) as EditText
+        etNim = findViewById<View>(R.id.Input_nim_add) as EditText
         etNama = findViewById<View>(R.id.Input_nama_add) as EditText
         etEmail = findViewById<View>(R.id.Input_email_add) as EditText
         etPassword = findViewById<View>(R.id.Input_pass_add) as EditText
-        etPassword = findViewById<View>(R.id.Input_telp_add) as EditText
+        etTelepon = findViewById<View>(R.id.Input_telp_add) as EditText
         btnCreateAccount = findViewById<View>(R.id.bt_tambah_user) as Button
         mProgressBar = ProgressDialog(this)
         mDatabase = FirebaseDatabase.getInstance()
@@ -85,9 +85,9 @@ class add_user_mhs : AppCompatActivity() {
         nim = etNim?.text.toString()
         nama = etNama?.text.toString()
         email = etEmail?.text.toString()
-        password = etPassword?.text.toString()
         telepon = etTelepon?.text.toString()
-        val spinnerUser = spinner_status_add.getSelectedItem().toString()
+        password = etPassword?.text.toString()
+        val spinnerUser = spinner_status_add?.getSelectedItem().toString()
         val password1 = etPassword!!.text.toString().trim()
         if (password1.length < 6){
             Toast.makeText(applicationContext,"Password too short, enter minimum 6 characters" , Toast.LENGTH_LONG).show()
@@ -108,7 +108,10 @@ class add_user_mhs : AppCompatActivity() {
                             verifyEmail();
                             //update user profile information
                             val currentUserDb = mDatabaseReference!!.child(userId)
+                            currentUserDb.child("telepon").setValue(telepon)
+                            currentUserDb.child("nim").setValue(nim)
                             currentUserDb.child("nama").setValue(nama)
+                            currentUserDb.child("hakAkses").setValue(spinnerUser)
                             updateUserInfoAndUI()
                         } else {
                             // If sign in fails, display a message to the user.

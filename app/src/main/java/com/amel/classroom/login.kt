@@ -1,18 +1,22 @@
 package com.amel.classroom
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_login.*
+
 
 class login : AppCompatActivity() {
 
     private lateinit var b_login: Button
-    lateinit var b_log_ad: Button
+    private lateinit var b_log_ad: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,10 +41,12 @@ class login : AppCompatActivity() {
                         val intent = Intent (this, login::class.java)
                         startActivity(intent)
                     }
-                    else
+                    else{
+
                         Toast.makeText(this, "Succesfully Login", Toast.LENGTH_SHORT).show()
-                    val intent = Intent (this, dashboard_user::class.java)
-                    startActivity(intent)
+                        val intent = Intent (this, dashboard_user::class.java)
+                        startActivity(intent)
+                    }
                 }
                 .addOnFailureListener{
                     Log.d("Main", "Failed Login: ${it.message}")
@@ -65,8 +71,8 @@ class login : AppCompatActivity() {
                     }
                     else
                         Toast.makeText(this, "Succesfully Login", Toast.LENGTH_SHORT).show()
-                    val intent = Intent (this, dashboard_admin::class.java)
-                    startActivity(intent)
+                        val intent = Intent (this, dashboard_admin::class.java)
+                        startActivity(intent)
                 }
                 .addOnFailureListener{
                     Log.d("Main", "Failed Login: ${it.message}")
