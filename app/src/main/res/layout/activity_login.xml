@@ -17,8 +17,9 @@
 
     <EditText
         android:background="@drawable/edit_text_design"
-        android:inputType="text"
         android:padding="9px"
+        android:inputType="text"
+
         android:id="@+id/input_id"
         android:layout_marginTop="100px"
         android:layout_width="600px"

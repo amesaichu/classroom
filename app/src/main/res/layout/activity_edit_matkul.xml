@@ -31,6 +31,8 @@
             android:layout_marginBottom="70dp"
             />
         <EditText
+            android:background="@drawable/edit_text_design"
+            android:padding="9px"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:id="@+id/text_matkul_edit"

@@ -9,6 +9,7 @@
 
 
     <TextView
+
         android:textStyle="bold"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="20dp"
@@ -20,34 +21,36 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
+        android:layout_height="match_parent"
         android:gravity="center"
-        android:layout_height="match_parent">
+        android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="400px"
-        android:layout_height="400px"
-        android:src="@drawable/matkul_ic"
-        android:layout_gravity="center"
-        android:layout_marginBottom="70dp"
-        />
-    <EditText
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:id="@+id/Input_matkul_add"
-        android:layout_width="750px"
-        android:layout_height="wrap_content"
-        android:hint="Isi nama Mata Kuliah"/>
+        <ImageView
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:src="@drawable/matkul_ic" />
 
-    <Button
-        android:id="@+id/bt_tambah_matkul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tambah"
-        android:background="@drawable/button1"
-        android:layout_marginTop="40dp"
-        android:layout_gravity="center"
-        android:textColor="@android:color/white"/>
+        <EditText
+            android:id="@+id/Input_matkul_add"
+            android:layout_width="750px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_text_design"
+            android:hint="Isi nama Mata Kuliah"
+            android:padding="9px"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/bt_tambah_matkul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button1"
+            android:text="Tambah"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 

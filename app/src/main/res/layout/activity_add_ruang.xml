@@ -32,6 +32,8 @@
             android:layout_marginBottom="70dp"
             />
         <EditText
+            android:background="@drawable/edit_text_design"
+            android:padding="9px"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:id="@+id/Input_namaruang_add"
@@ -40,6 +42,9 @@
             android:hint="Isi nama Ruang"/>
 
         <EditText
+            android:background="@drawable/edit_text_design"
+            android:padding="9px"
+            android:layout_marginTop="20px"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:id="@+id/Input_lantairuang_add"
