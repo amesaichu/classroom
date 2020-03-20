@@ -17,12 +17,13 @@
 
     <EditText
         android:background="@drawable/edit_text_design"
+        android:inputType="text"
+        android:padding="9px"
         android:id="@+id/input_id"
         android:layout_marginTop="100px"
         android:layout_width="600px"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:padding="9px"
+
         android:textAlignment="center"
         android:hint="NIM/ID"/>
 

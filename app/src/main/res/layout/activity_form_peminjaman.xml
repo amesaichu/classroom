@@ -29,6 +29,7 @@
             android:text="Nomor: "/>
         <EditText
             android:id="@+id/ETid"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"

@@ -23,6 +23,9 @@
         android:layout_height="wrap_content"
         android:text="Nomor"/>
     <EditText
+        android:background="@drawable/edit_text_design"
+        android:padding="9px"
+        android:layout_marginLeft="20px"
         android:id="@+id/ETid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,6 +38,9 @@
         android:text="Nama"/>
     <EditText
         android:id="@+id/ETnama"
+        android:background="@drawable/edit_text_design"
+        android:padding="9px"
+        android:layout_marginLeft="20px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
@@ -46,12 +52,16 @@
         android:text="Kelas"/>
     <EditText
         android:id="@+id/ETkelas"
+        android:background="@drawable/edit_text_design"
+        android:padding="9px"
+        android:layout_marginLeft="20px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:hint="kelas"/>
     <TextView
         android:id="@+id/idate"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tanggal Pinjam"/>
@@ -101,6 +111,9 @@
         android:layout_height="wrap_content"
         android:text="Alasan"/>
     <EditText
+        android:background="@drawable/edit_text_design"
+        android:padding="9px"
+        android:layout_marginLeft="20px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/alasan"
