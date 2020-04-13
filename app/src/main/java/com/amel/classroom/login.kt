@@ -17,6 +17,7 @@ class login : AppCompatActivity() {
 
     private lateinit var b_login: Button
     private lateinit var b_log_ad: Button
+    private lateinit var database: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,7 +43,6 @@ class login : AppCompatActivity() {
                         startActivity(intent)
                     }
                     else{
-
                         Toast.makeText(this, "Succesfully Login", Toast.LENGTH_SHORT).show()
                         val intent = Intent (this, dashboard_user::class.java)
                         startActivity(intent)
